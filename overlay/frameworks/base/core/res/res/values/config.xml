@@ -508,4 +508,16 @@
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
      <integer name="config_lightSensorWarmupTime">200</integer>
+
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <!--
+          <item>sensorLocationX</item>
+          <item>sensorLocationY</item>
+          <item>sensorRadius</item>
+        -->
+          <item>540</item>
+          <item>1907</item>
+          <item>99</item>
+      </integer-array>
 </resources>
