@@ -45,9 +45,11 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
-vendor/lib/rfsa/adsp/misound_res_spk.bin
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# ADSP modules - from venus V13.0.6.0.SKBCNXM
+vendor/lib/rfsa/adsp/misound_res_spk.bin|4a7e08dd2ad392a211ed77c06f9098a84ebb1dad
 
 # Audio
 vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.thyme.so;FIX_SONAME
