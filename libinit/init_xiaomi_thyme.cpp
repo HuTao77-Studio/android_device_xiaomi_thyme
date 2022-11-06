@@ -13,6 +13,7 @@ static const variant_info_t thyme_info = {
     .hwc_value = "",
     .sku_value = "",
 
+    .mod_device = "thyme",
     .name = "thyme",
     .brand = "Xiaomi",
     .device = "thyme",
