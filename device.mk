@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+PRODUCT_PACKAGES += \
+    libpiex_shim
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
