@@ -41,3 +41,6 @@ vendor.display.defer_fps_frame_count=2
 # Fingerprint
 persist.vendor.fingerprint.type=udfps_optical
 persist.vendor.fingerprint.sensor_location=540|1907|99
+
+# TouchFeature
+ro.vendor.touchfeature.type=143
