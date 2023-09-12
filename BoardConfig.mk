@@ -9,8 +9,6 @@ DEVICE_PATH := device/xiaomi/thyme
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
-BUILD_BROKEN_DUP_RULES := true
-
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
