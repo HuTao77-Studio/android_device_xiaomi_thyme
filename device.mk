@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/displayconfig/,$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig)
 
+# Dolby Config File
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
