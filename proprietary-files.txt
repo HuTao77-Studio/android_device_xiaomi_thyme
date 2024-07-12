@@ -409,6 +409,13 @@ vendor/etc/charger_fstab.qti
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
+# Display-calibration
+vendor/etc/ltm_config_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_xiaomi_42_02_0b_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/mdss_dsi_j2s_mp_42_02_0a_dsc_cmd_mi.xml
+vendor/etc/mdss_dsi_j2s_mp_42_02_0b_dsc_cmd_mi.xml
+vendor/etc/tunings.txt
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.kona.so;FIX_SONAME
 vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.kona.so;FIX_SONAME
