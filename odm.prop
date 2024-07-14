@@ -1,0 +1,5 @@
+# Bluetooth
+bluetooth.device.default_name=Mi 10S
+
+# USB
+vendor.usb.product_string=Mi 10S
