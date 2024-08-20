@@ -443,6 +443,9 @@ vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
+# NVRAM
+vendor/bin/nv_mac
+
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
