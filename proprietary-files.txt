@@ -48,9 +48,9 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio
-vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.thyme.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_thyme.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
