@@ -48,9 +48,9 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.thyme.so
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.thyme.so;FIX_SONAME
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_thyme.so
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_thyme.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
@@ -408,8 +408,8 @@ vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.kona.so
-vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.kona.so
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.kona.so;FIX_SONAME
+vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.kona.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgf_hal6.so
 
