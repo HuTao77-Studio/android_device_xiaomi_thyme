@@ -167,6 +167,16 @@ vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
+# Camera (MIUI Camera)
+system/lib/libcamera_algoup_jni.xiaomi.so
+system/lib/libcamera_mianode_jni.xiaomi.so
+system/lib64/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_mianode_jni.xiaomi.so
+vendor/camera/fonts/FZMiaoWuJW.ttf
+
+# Camera (MIUI Camera) - from thyme V14.0.6.0.TGACNXM
+-product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera2,GoogleCameraGo,Snap|d18ad1ceeb4076ec233da85f7e2cdfd0d8246669
+
 # Camera arcsoft
 vendor/lib64/libarcsat.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -185,6 +195,10 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF
 vendor/lib64/libarcsoft_superportrait.so
 
+# Camera campostproc
+system/lib/vendor.xiaomi.hardware.campostproc@1.0.so
+system/lib64/libmicampostproc_client.so
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
 # Camera components
 vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
@@ -420,6 +434,9 @@ vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod
 vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.kona.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgf_hal6.so
+
+# MIUI scanner
+-product/data-app/MiuiScanner/MiuiScanner.apk:product/priv-app/MiuiScanner/MiuiScanner.apk|9d788fa55107fdcfb26bec22743849b6e8360c86
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc

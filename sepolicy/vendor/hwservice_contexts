@@ -1,0 +1,5 @@
+# Campostproc
+vendor.xiaomi.hardware.campostproc::IMiPostProcService                               u:object_r:hal_camerapostproc_xiaomi_hwservice:s0
+
+# Misys
+vendor.xiaomi.hardware.misys::IMiSys                                                 u:object_r:hal_misys_xiaomi_hwservice:s0
