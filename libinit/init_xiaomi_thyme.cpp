@@ -22,6 +22,7 @@ static const variant_info_t thyme_info = {
     .cert = "M2102J2SC",
     .build_fingerprint = "Xiaomi/thyme/thyme:13/RKQ1.211001.001/V816.0.4.0.TGACNXM:user/release-keys",
     .hwsku = "thyme",
+    .flavor = "thyme-user",
 
     .nfc = true,
 };
