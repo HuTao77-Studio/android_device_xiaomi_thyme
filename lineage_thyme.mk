@@ -22,4 +22,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/thyme/thyme:13/RKQ1.211001.001/V816.0.4.0.TGACNXM:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="thyme-user 13 RKQ1.211001.001 V816.0.4.0.TGACNXM release-keys" \
+    BuildFingerprint=Xiaomi/thyme/thyme:13/RKQ1.211001.001/V816.0.4.0.TGACNXM:user/release-keys \
+    DeviceName=thyme \
+    DeviceProduct=thyme \
+    SystemDevice=thyme \
+    SystemName=thyme
