@@ -72,7 +72,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    TargetWifiOverlay
+    ThymeWifiOverlay
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/thyme/thyme-vendor.mk)

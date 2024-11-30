@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "TargetWifiOverlay",
-    theme: "TargetWifiOverlay",
+    name: "ThymeWifiOverlay",
+    theme: "ThymeWifiOverlay",
     sdk_version: "current",
     product_specific: true
 }
