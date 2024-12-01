@@ -35,7 +35,6 @@ vendor.audio.offload.buffer.size.kb=32
 ro.hardware.audio.primary=thyme
 
 # Display
-ro.surface_flinger.set_touch_timer_ms=200
 vendor.display.defer_fps_frame_count=2
 
 # Fingerprint
