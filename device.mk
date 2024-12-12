@@ -41,6 +41,10 @@ TARGET_HAS_UDFPS := true
 PRODUCT_PACKAGES += \
     ThymeNfcOverlay
 
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
