@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_xiaomi_sm8250-common-thyme",
+    "target_path": "device/xiaomi/sm8250-common"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_xiaomi_thyme",
+    "target_path": "vendor/xiaomi/thyme"
+  }
+]
