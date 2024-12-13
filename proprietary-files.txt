@@ -539,6 +539,10 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 
+# Touchscreen firmware
+vendor/firmware/J2S_limit_csot.csv
+vendor/firmware/stm_fts_production_limits.csv
+
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_rtp_1.bin
